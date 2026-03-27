@@ -30,6 +30,8 @@ const MARKET_SYMBOLS = [
   { symbol: "^GDAXI", label: "德国DAX", region: "eu" },
   { symbol: "^N225", label: "日经225", region: "jp" },
   { symbol: "000001.SS", label: "上证指数", region: "cn" },
+  { symbol: "000300.SS", label: "沪深300", region: "cn" },
+  { symbol: "^HSI", label: "恒生指数", region: "hk" },
   { symbol: "BZ=F", label: "布伦特原油", region: "commodity" },
   { symbol: "GC=F", label: "COMEX黄金", region: "commodity" },
   { symbol: "CNY=X", label: "美元/人民币", region: "fx" },
@@ -114,6 +116,43 @@ async function fetchMarkets(): Promise<MarketQuote[]> {
         marketState: null,
         fetchedAt: new Date().toISOString(),
       });
+    }
+  }
+
+  return results;
+}
+
+// ──────────────────────────────────────────────
+// 1b. Yahoo Finance – 7-day sparkline history
+// ──────────────────────────────────────────────
+
+interface SparklineData {
+  symbol: string;
+  closes: number[];
+}
+
+async function fetchSparklines(): Promise<SparklineData[]> {
+  console.log("📊 Fetching 7-day sparkline data …");
+  const results: SparklineData[] = [];
+  const end = new Date();
+  const start = new Date(end.getTime() - 10 * 86_400_000); // 10 days back to ensure 7 trading days
+
+  for (const { symbol } of MARKET_SYMBOLS) {
+    try {
+      const history = await yf.historical(symbol, {
+        period1: start,
+        period2: end,
+        interval: "1d",
+      });
+      const closes = history
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+        .slice(-7)
+        .map((d) => d.close);
+      results.push({ symbol, closes });
+      console.log(`   ✓ ${symbol}: ${closes.length} data points`);
+    } catch (err) {
+      console.error(`   ✗ ${symbol}: ${(err as Error).message}`);
+      results.push({ symbol, closes: [] });
     }
   }
 
@@ -252,8 +291,9 @@ async function main() {
   const date = today();
   console.log(`\n🌅 晨风 data fetch — ${date}\n`);
 
-  const [markets, macro, news] = await Promise.all([
+  const [markets, sparklines, macro, news] = await Promise.all([
     fetchMarkets(),
+    fetchSparklines(),
     fetchFred(),
     fetchNews(),
   ]);
@@ -262,6 +302,7 @@ async function main() {
     date,
     fetchedAt: new Date().toISOString(),
     markets,
+    sparklines,
     macro,
     news,
   };

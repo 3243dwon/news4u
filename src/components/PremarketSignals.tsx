@@ -20,11 +20,11 @@ export default function PremarketSignals({ items }: { items: PremarketSignal[] }
             >
               <div className="flex items-center gap-1.5 mb-0.5">
                 <span className="text-sm">{style.icon}</span>
-                <span className="text-xs font-semibold text-heading">
+                <span className="text-xs font-semibold text-heading dark:text-gray-100">
                   {item.category}
                 </span>
               </div>
-              <p className="text-sm text-body leading-relaxed">{item.signal}</p>
+              <p className="text-sm text-body dark:text-gray-300 leading-relaxed">{item.signal}</p>
             </div>
           );
         })}

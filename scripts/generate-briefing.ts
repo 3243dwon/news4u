@@ -217,7 +217,28 @@ async function main() {
     process.exit(1);
   }
 
-  // 4. Write edition
+  // 4. Merge sparkline data from raw (bypass Claude)
+  const rawParsed = JSON.parse(rawData) as {
+    sparklines?: Array<{ symbol: string; closes: number[] }>;
+  };
+  if (rawParsed.sparklines) {
+    const sparklineMap: Record<string, number[]> = {};
+    for (const s of rawParsed.sparklines) {
+      sparklineMap[s.symbol] = s.closes;
+    }
+    const globalMarkets = edition.globalMarkets as Array<Record<string, unknown>>;
+    if (globalMarkets) {
+      for (const m of globalMarkets) {
+        const closes = sparklineMap[m.code as string];
+        if (closes?.length) {
+          m.sparkline = closes;
+        }
+      }
+    }
+    console.log(`📊 Merged sparkline data for ${Object.keys(sparklineMap).length} symbols`);
+  }
+
+  // 5. Write edition
   const outDir = path.join(ROOT, "data", "editions");
   fs.mkdirSync(outDir, { recursive: true });
 

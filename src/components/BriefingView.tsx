@@ -26,7 +26,7 @@ export default function BriefingView({ data }: { data: Edition }) {
       </main>
 
       <footer className="px-5 pb-10 pt-2 max-w-lg mx-auto">
-        <p className="text-xs text-muted text-center">
+        <p className="text-xs text-muted dark:text-gray-500 text-center">
           以上内容仅供参考，不构成投资建议
         </p>
       </footer>

@@ -34,42 +34,48 @@
       "code": "000001.SS",
       "price": 3285.67,
       "change": 1.23,
-      "region": "cn"
+      "region": "cn",
+      "sparkline": [3210, 3225, 3240, 3238, 3260, 3272, 3286]
     },
     {
       "name": "深证成指",
       "code": "SZ399001",
       "price": 10456.32,
       "change": 1.58,
-      "region": "cn"
+      "region": "cn",
+      "sparkline": [10200, 10280, 10310, 10350, 10380, 10420, 10456]
     },
     {
       "name": "创业板指",
       "code": "SZ399006",
       "price": 2134.89,
       "change": 2.15,
-      "region": "cn"
+      "region": "cn",
+      "sparkline": [2050, 2070, 2085, 2090, 2100, 2118, 2135]
     },
     {
       "name": "恒生指数",
       "code": "HSI",
       "price": 22876.45,
       "change": -0.34,
-      "region": "hk"
+      "region": "hk",
+      "sparkline": [23100, 23050, 22980, 22950, 22920, 22900, 22876]
     },
     {
       "name": "道琼斯",
       "code": "DJI",
       "price": 42567.89,
       "change": 0.45,
-      "region": "us"
+      "region": "us",
+      "sparkline": [42200, 42350, 42300, 42400, 42450, 42500, 42568]
     },
     {
       "name": "纳斯达克",
       "code": "IXIC",
       "price": 18234.56,
       "change": -0.78,
-      "region": "us"
+      "region": "us",
+      "sparkline": [18500, 18450, 18380, 18350, 18300, 18270, 18235]
     },
     {
       "name": "标普500",

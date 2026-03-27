@@ -11,6 +11,7 @@ export interface MarketItem {
   price: number;
   change: number;
   region: string;
+  sparkline?: number[];
 }
 
 export interface MacroItem {

@@ -56,3 +56,67 @@ export function listEditions(limit = 30): string[] {
     .map((f) => f.replace(".json", ""))
     .slice(0, limit);
 }
+
+export interface SearchResult {
+  date: string;
+  section: string;
+  title: string;
+  text: string;
+}
+
+/**
+ * Full-text search across all editions.
+ * Returns matching snippets with date and section info.
+ */
+export function searchEditions(query: string, limit = 50): SearchResult[] {
+  if (!query.trim()) return [];
+  const q = query.toLowerCase();
+  const results: SearchResult[] = [];
+  const files = listEditionFiles();
+
+  for (const file of files) {
+    if (results.length >= limit) break;
+    try {
+      const raw = fs.readFileSync(path.join(EDITIONS_DIR, file), "utf-8");
+      const ed = JSON.parse(raw) as Edition;
+      const date = file.replace(".json", "");
+
+      for (const h of ed.todayHighlights ?? []) {
+        if (matches(q, h.title, h.summary)) {
+          results.push({ date, section: "今日要点", title: h.title, text: h.summary });
+        }
+      }
+      for (const m of ed.macroPulse ?? []) {
+        if (matches(q, m.title, m.summary)) {
+          results.push({ date, section: "宏观脉搏", title: m.title, text: m.summary });
+        }
+      }
+      for (const o of ed.overseasPerspective ?? []) {
+        if (matches(q, o.title, o.summary, o.source)) {
+          results.push({ date, section: "海外视角", title: o.title, text: o.summary });
+        }
+      }
+      for (const sector of [ed.industryFocus?.healthcare, ed.industryFocus?.energy]) {
+        if (!sector) continue;
+        for (const h of sector.highlights ?? []) {
+          if (matches(q, h.title, h.summary)) {
+            results.push({ date, section: `行业聚焦 · ${sector.title}`, title: h.title, text: h.summary });
+          }
+        }
+      }
+      for (const s of ed.premarketSignals ?? []) {
+        if (matches(q, s.category, s.signal)) {
+          results.push({ date, section: "盘前信号", title: s.category, text: s.signal });
+        }
+      }
+    } catch {
+      // skip corrupt files
+    }
+  }
+
+  return results.slice(0, limit);
+}
+
+function matches(query: string, ...fields: (string | undefined)[]): boolean {
+  return fields.some((f) => f?.toLowerCase().includes(query));
+}

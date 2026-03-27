@@ -22,10 +22,10 @@ export default function ArchiveDatePage({
   }
 
   return (
-    <div className="min-h-screen bg-cream">
+    <div className="min-h-screen bg-cream dark:bg-[#1a1a1a]">
       <header className="px-5 pt-8 pb-4 sm:px-6 max-w-lg mx-auto">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-heading tracking-tight">
+          <h1 className="text-2xl font-bold text-heading dark:text-gray-100 tracking-tight">
             ☀️ 晨风早报
           </h1>
           <div className="flex items-center gap-3 text-xs">
@@ -43,11 +43,11 @@ export default function ArchiveDatePage({
             </Link>
           </div>
         </div>
-        <p className="text-sm font-medium text-heading mt-1">
+        <p className="text-sm font-medium text-heading dark:text-gray-100 mt-1">
           {formatDateCN(params.date)}
         </p>
-        <p className="text-xs text-muted mt-0.5">{data.meta.edition}</p>
-        <p className="text-sm text-body mt-2">{data.meta.greeting}</p>
+        <p className="text-xs text-muted dark:text-gray-500 mt-0.5">{data.meta.edition}</p>
+        <p className="text-sm text-body dark:text-gray-300 mt-2">{data.meta.greeting}</p>
       </header>
 
       <BriefingView data={data} />

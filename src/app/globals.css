@@ -10,6 +10,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.dark body,
+:root.dark body {
+  background: #1a1a1a;
+  color: #d4d4d4;
+}
+
 @keyframes fade-in-up {
   from {
     opacity: 0;
