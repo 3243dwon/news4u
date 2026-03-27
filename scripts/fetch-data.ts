@@ -289,7 +289,7 @@ async function fetchNews(): Promise<NewsArticle[]> {
 
 async function main() {
   const date = today();
-  console.log(`\n🌅 晨风 data fetch — ${date}\n`);
+  console.log(`\n🌅 棱镜 data fetch — ${date}\n`);
 
   const [markets, sparklines, macro, news] = await Promise.all([
     fetchMarkets(),

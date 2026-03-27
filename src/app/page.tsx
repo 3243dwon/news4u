@@ -13,7 +13,7 @@ export default function Home() {
       <header className="px-5 pt-8 pb-4 sm:px-6 max-w-lg mx-auto">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-heading dark:text-gray-100 tracking-tight">
-            ☀️ 晨风早报
+            🔷 棱镜 · 每日简报
           </h1>
           <div className="flex items-center gap-3">
             <ThemeToggle />

@@ -3,13 +3,13 @@ import "./globals.css";
 import RegisterSW from "@/components/RegisterSW";
 
 export const metadata: Metadata = {
-  title: "晨风早报 — 每日市场简报",
+  title: "棱镜 · 每日简报",
   description: "每日中国及全球市场简报",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "晨风",
+    title: "棱镜",
   },
   icons: {
     icon: "/icon-192.png",

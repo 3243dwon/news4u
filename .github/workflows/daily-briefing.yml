@@ -46,7 +46,7 @@ jobs:
           EDITION_FILE="data/editions/${DATE}.json"
           if [ -f "$EDITION_FILE" ]; then
             git add "$EDITION_FILE"
-            git commit -m "📰 晨风早报 ${DATE}" || echo "No changes to commit"
+            git commit -m "📰 棱镜 ${DATE}" || echo "No changes to commit"
             git push
           else
             echo "⚠ No edition file generated for ${DATE}"

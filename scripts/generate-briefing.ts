@@ -32,7 +32,7 @@ function today(): string {
 // System prompt
 // ──────────────────────────────────────────────
 
-const SYSTEM_PROMPT = `你是「晨风早报」的资深金融编辑。你的任务是将原始市场数据、宏观指标和英文新闻，整合成一份面向中国投资者的中文每日简报。
+const SYSTEM_PROMPT = `你是「棱镜 · 每日简报」的资深金融编辑。你的任务是将原始市场数据、宏观指标和英文新闻，整合成一份面向中国投资者的中文每日简报。
 
 ## 输出格式
 
@@ -41,7 +41,7 @@ const SYSTEM_PROMPT = `你是「晨风早报」的资深金融编辑。你的任
 {
   "meta": {
     "date": "YYYY-MM-DD",
-    "edition": "晨风早报 · YYYY年M月D日",
+    "edition": "棱镜 · YYYY年M月D日",
     "greeting": "一句简短的早安问候语，可以结合当天市场氛围"
   },
   "overallSentiment": {
@@ -148,7 +148,7 @@ const SYSTEM_PROMPT = `你是「晨风早报」的资深金融编辑。你的任
 
 async function main() {
   const date = today();
-  console.log(`\n🤖 晨风 briefing generation — ${date}\n`);
+  console.log(`\n🤖 棱镜 briefing generation — ${date}\n`);
 
   // 1. Read raw data
   const rawPath = path.join(ROOT, "data", "raw", `${date}.json`);
@@ -180,7 +180,7 @@ async function main() {
     messages: [
       {
         role: "user",
-        content: `以下是 ${date} 的原始市场数据，请生成今日晨风早报：\n\n${rawData}`,
+        content: `以下是 ${date} 的原始市场数据，请生成今日棱镜简报：\n\n${rawData}`,
       },
     ],
   });

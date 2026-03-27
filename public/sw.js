@@ -1,4 +1,4 @@
-const CACHE_NAME = "chenfeng-v1";
+const CACHE_NAME = "lengjing-v1";
 const PRECACHE_URLS = ["/", "/archive"];
 
 // Install: precache shell
