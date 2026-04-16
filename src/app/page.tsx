@@ -2,6 +2,7 @@ import Link from "next/link";
 import { loadEdition } from "@/lib/load-edition";
 import BriefingView from "@/components/BriefingView";
 import ThemeToggle from "@/components/ThemeToggle";
+import FreshnessIndicator from "@/components/FreshnessIndicator";
 
 export const dynamic = "force-dynamic";
 
@@ -33,7 +34,10 @@ export default function Home() {
             </span>
           )}
         </div>
-        <p className="text-xs text-muted dark:text-gray-500 mt-0.5">{data.meta.date}</p>
+        <div className="flex items-center gap-2 mt-0.5">
+          <p className="text-xs text-muted dark:text-gray-500">{data.meta.date}</p>
+          <FreshnessIndicator editionDate={data.meta.date} />
+        </div>
         <p className="text-sm text-body dark:text-gray-300 mt-2">{data.meta.greeting}</p>
       </header>
 

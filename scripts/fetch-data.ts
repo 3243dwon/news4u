@@ -288,19 +288,115 @@ async function fetchNews(): Promise<NewsArticle[]> {
 }
 
 // ──────────────────────────────────────────────
-// Main – fetch all & write to disk
+// 4. Sina Finance – China-specific news (RSS)
+// ──────────────────────────────────────────────
+
+interface SinaArticle {
+  query: string;
+  title: string;
+  description: string | null;
+  source: string;
+  url: string;
+  publishedAt: string;
+}
+
+async function fetchSinaFinance(): Promise<SinaArticle[]> {
+  console.log("🇨🇳 Fetching China news from Sina Finance …");
+  const articles: SinaArticle[] = [];
+
+  // Sina Finance RSS feeds for major categories
+  const feeds = [
+    { url: "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=10&page=1&r=0.1&callback=", label: "财经要闻" },
+    { url: "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2517&k=&num=10&page=1&r=0.1&callback=", label: "股市动态" },
+  ];
+
+  for (const feed of feeds) {
+    try {
+      const res = await fetch(feed.url, {
+        headers: { "User-Agent": "Mozilla/5.0" },
+        signal: AbortSignal.timeout(10_000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const text = await res.text();
+      // Sina returns JSONP-like or plain JSON
+      const jsonStr = text.replace(/^[^{[]*/, "").replace(/[^}\]]*$/, "");
+      const json = JSON.parse(jsonStr) as {
+        result?: { data?: Array<{
+          title?: string;
+          intro?: string;
+          url?: string;
+          ctime?: string;
+          media_name?: string;
+        }> };
+      };
+
+      const items = json.result?.data ?? [];
+      for (const item of items.slice(0, 5)) {
+        if (item.title) {
+          articles.push({
+            query: feed.label,
+            title: item.title,
+            description: item.intro ?? null,
+            source: item.media_name ?? "新浪财经",
+            url: item.url ?? "",
+            publishedAt: item.ctime
+              ? new Date(parseInt(item.ctime) * 1000).toISOString()
+              : new Date().toISOString(),
+          });
+        }
+      }
+      console.log(`   ✓ "${feed.label}": ${Math.min(items.length, 5)} articles`);
+    } catch (err) {
+      console.warn(`   ✗ "${feed.label}": ${(err as Error).message} (skipping)`);
+    }
+  }
+
+  return articles;
+}
+
+// ──────────────────────────────────────────────
+// Main – fetch all & write to disk (with error recovery)
 // ──────────────────────────────────────────────
 
 async function main() {
   const date = today();
   console.log(`\n🌅 棱镜 data fetch — ${date}\n`);
 
-  const [markets, sparklines, macro, news] = await Promise.all([
+  // Run all fetches with individual error recovery
+  const results = await Promise.allSettled([
     fetchMarkets(),
     fetchSparklines(),
     fetchFred(),
     fetchNews(),
+    fetchSinaFinance(),
   ]);
+
+  const markets = results[0].status === "fulfilled" ? results[0].value : [];
+  const sparklines = results[1].status === "fulfilled" ? results[1].value : [];
+  const macro = results[2].status === "fulfilled" ? results[2].value : [];
+  const news = results[3].status === "fulfilled" ? results[3].value : [];
+  const chinaNews = results[4].status === "fulfilled" ? results[4].value : [];
+
+  // Log any fully-failed sources
+  const labels = ["Markets", "Sparklines", "FRED", "NewsAPI", "Sina"];
+  results.forEach((r, i) => {
+    if (r.status === "rejected") {
+      console.error(`⚠ ${labels[i]} source completely failed: ${r.reason}`);
+    }
+  });
+
+  // Require at least markets OR news to proceed
+  const hasMarkets = markets.some((m) => m.price !== null);
+  const hasAnyNews = news.length > 0 || chinaNews.length > 0;
+
+  if (!hasMarkets && !hasAnyNews) {
+    console.error("✗ All data sources failed — cannot generate briefing.");
+    process.exit(1);
+  }
+
+  if (!hasMarkets) console.warn("⚠ No market data available — proceeding with news only.");
+  if (!hasAnyNews) console.warn("⚠ No news available — proceeding with market data only.");
 
   const output = {
     date,
@@ -309,6 +405,7 @@ async function main() {
     sparklines,
     macro,
     news,
+    chinaNews,
   };
 
   const outDir = path.resolve(__dirname, "..", "data", "raw");
@@ -319,7 +416,7 @@ async function main() {
 
   console.log(`\n✅ Wrote ${outPath}`);
   console.log(
-    `   ${markets.length} market quotes, ${macro.length} macro indicators, ${news.length} news articles\n`
+    `   ${markets.length} market quotes, ${macro.length} macro indicators, ${news.length} intl news, ${chinaNews.length} china news\n`
   );
 }
 

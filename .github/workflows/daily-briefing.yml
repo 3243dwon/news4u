@@ -46,11 +46,19 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           DATE=$(date +%Y-%m-%d)
           EDITION_FILE="data/editions/${DATE}.json"
+          RAW_FILE="data/raw/${DATE}.json"
+          # Stage raw data if it exists (useful for debugging)
+          if [ -f "$RAW_FILE" ]; then
+            git add "$RAW_FILE"
+          fi
           if [ -f "$EDITION_FILE" ]; then
             git add "$EDITION_FILE"
             git commit -m "📰 棱镜 ${DATE}" || echo "No changes to commit"
             git push
           else
             echo "⚠ No edition file generated for ${DATE}"
+            # Still commit raw data so we can debug / retry
+            git commit -m "⚠ 棱镜 ${DATE} (raw data only)" || true
+            git push || true
             exit 1
           fi
