@@ -1,0 +1,586 @@
+{
+  "date": "2026-04-18",
+  "fetchedAt": "2026-04-17T20:44:11.868Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7126.06,
+      "change": 158.68,
+      "changePercent": 2.28,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.303Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24468.48,
+      "change": 829.4,
+      "changePercent": 3.51,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.422Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49447.43,
+      "change": 911.44,
+      "changePercent": 1.88,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.538Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10667.63,
+      "change": 58.53,
+      "changePercent": 0.55,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.633Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24702.24,
+      "change": 658.02,
+      "changePercent": 2.74,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.726Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 58475.9,
+      "change": 598.51,
+      "changePercent": 1.03,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.846Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4051.425,
+      "change": 24.8,
+      "changePercent": 0.62,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:09.935Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4728.671,
+      "change": 27.39,
+      "changePercent": 0.58,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:10.030Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26160.33,
+      "change": 288.01,
+      "changePercent": 1.11,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:10.134Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 90.92,
+      "change": -3.87,
+      "changePercent": -4.08,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:10.259Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4867.4,
+      "change": 42.4,
+      "changePercent": 0.88,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:10.354Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8164,
+      "change": -0.01,
+      "changePercent": -0.2,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T20:44:10.454Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        6824.66015625,
+        6816.89013671875,
+        6886.240234375,
+        6967.3798828125,
+        7022.9501953125,
+        7041.27978515625,
+        7126.06005859375
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        22822.419921875,
+        22902.890625,
+        23183.740234375,
+        23639.080078125,
+        24016.01953125,
+        24102.69921875,
+        24468.48046875
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        48185.80078125,
+        47916.5703125,
+        48218.25,
+        48535.98828125,
+        48463.71875,
+        48578.71875,
+        49447.4296875
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10603.5,
+        10600.5,
+        10583,
+        10609.099609375,
+        10559.599609375,
+        10590,
+        10667.6298828125
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        23806.990234375,
+        23803.94921875,
+        23742.439453125,
+        24044.220703125,
+        24066.69921875,
+        24154.470703125,
+        24702.240234375
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        56308.421875,
+        55895.3203125,
+        56924.109375,
+        56502.76953125,
+        57877.390625,
+        58134.23828125,
+        59518.33984375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        3994.998046875,
+        3966.1708984375,
+        3986.22509765625,
+        3988.55810546875,
+        4026.625,
+        4027.208984375,
+        4055.547119140625
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4595.56005859375,
+        4566.22021484375,
+        4636.56982421875,
+        4646.16015625,
+        4701.27978515625,
+        4685.25,
+        4736.60986328125
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25893.01953125,
+        25752.400390625,
+        25893.5390625,
+        25660.849609375,
+        25872.3203125,
+        25947.3203125,
+        26394.259765625
+      ]
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        95.91999816894531,
+        95.19999694824219,
+        99.36000061035156,
+        94.79000091552734,
+        94.93000030517578,
+        99.38999938964844,
+        90.91999816894531
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4792.2001953125,
+        4761.89990234375,
+        4742.39990234375,
+        4825,
+        4800,
+        4785.39990234375,
+        4867.2998046875
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.831399917602539,
+        6.8277997970581055,
+        6.8302998542785645,
+        6.815700054168701,
+        6.817999839782715,
+        6.821100234985352,
+        6.816400051116943
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T20:44:09.249Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T20:44:09.403Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T20:44:09.494Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "S&amp;P 500 notches first close above 7,100, Nasdaq posts longest win streak since 1992: Live updates",
+      "description": "U.S. stocks rose on Friday after Iran declared the Strait of Hormuz \"completely open\" on the heels of a ceasefire announcement between Israel and Lebanon.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/stock-market-today-live-updates.html",
+      "publishedAt": "2026-04-17T20:27:10.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
+      "description": "Federal Reserve Governor Christopher Waller on Friday said current economic conditions are complicating the approach to interest rates.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/fed-governor-waller-says-iran-war-and-labor-market-risks-are-keeping-central-bank-on-hold.html",
+      "publishedAt": "2026-04-17T19:00:13.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Anthropic&apos;s Dario Amodei to meet with White House about Mythos",
+      "description": "The meeting comes less than two months after President Donald Trump blacklisted Anthropic.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html",
+      "publishedAt": "2026-04-17T17:14:09.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+      "description": "Cerebras has an expanded deal with OpenAI in hand as it tries again to go public, one person said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html",
+      "publishedAt": "2026-04-17T20:43:28.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Netflix was long &apos;a builder not a buyer.&apos; Is that era over?",
+      "description": "Netflix co-CEO Ted Sarandos said during an investor call that the company built its \"M&A muscle\" during its pursuit of WBD's assets. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/netflix-mergers-m-a-strategy.html",
+      "publishedAt": "2026-04-17T15:39:55.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Earnings poised to stoke confidence in a stock market that has rebounded to all-time highs. Here&apos;s what&apos;s ahead",
+      "description": "The fast-moving developments on the warfront add to confidence in many parts of the Street that the bottom is in for equities. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/stock-market-next-week-outlook-for-april-20-24-2026.html",
+      "publishedAt": "2026-04-17T20:06:38.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+      "description": "Oracle, AMD and Microsoft are on pace for historic weeks, while Intel, Broadcom, Micron, Marvell and ON Semiconductor are all roaring in April.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/big-tech-stocks-winning-streaks-oracle-amd-microsoft-igv-.html",
+      "publishedAt": "2026-04-17T20:21:55.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Three things to know about FISA Section 702: Congress passes short-term extension of controversial surveillance program",
+      "description": "The law allows the U.S. government to surveil people outside the U.S., including when they're communicating with American citizens.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/section-702-fisa-congress-surveillance.html",
+      "publishedAt": "2026-04-17T19:48:26.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire",
+      "description": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T18:32:21.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Finance ministers and top bankers raise serious concerns about Mythos AI model",
+      "description": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cyber-security weaknesses.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T10:22:46.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "UK petrol and diesel prices fall after weeks of rises",
+      "description": "Drivers have seen weeks of increases as the US-Israeli war with Iran pushed up wholesale oil prices.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx2w17pq7v0o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T11:42:41.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Tinder and Zoom offer 'proof of humanity' eye-scans to combat AI",
+      "description": "The tech aims to identify people's irises and stop the rise of fake accounts and malicious scams.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cp9vppem4evo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T19:05:43.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Rising value of Pokémon cards sparks smash and grab crime spree",
+      "description": "Small shops across the UK are being targeted by thieves stealing collectibles worth thousands of pounds.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c4gvvnpl5kno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:01:59.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Could a digital twin make you into a 'superworker'?",
+      "description": "Firms say digital twins make staff more productive, but are they a potential legal minefield?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c1d907lq6nyo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:04:15.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "AI minister Kendall says she doesn't use AI at work",
+      "description": "The Science, Innovation and Technology Secretary this week unveiled a £500m fund to boost British AI firms.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cd0rmzjd720o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T17:08:16.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "What is Claude Mythos and what risks does it pose?",
+      "description": "The company's claim the AI tool can outperform humans at some hacking and cyber-security tasks has sparked fears in the financial world.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/crk1py1jgzko?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T13:41:01.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+      "description": "The main usage metric for artificial intelligence, called tokens, looks explosive on paper, but it may be significantly overstated. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html",
+      "publishedAt": "2026-04-17T19:10:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+      "description": "Cerebras has an expanded deal with OpenAI in hand as it tries again to go public, one person said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html",
+      "publishedAt": "2026-04-17T20:43:28.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Anthropic&apos;s Dario Amodei to meet with White House about Mythos",
+      "description": "The meeting comes less than two months after President Donald Trump blacklisted Anthropic.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html",
+      "publishedAt": "2026-04-17T17:14:09.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+      "description": "Oracle, AMD and Microsoft are on pace for historic weeks, while Intel, Broadcom, Micron, Marvell and ON Semiconductor are all roaring in April.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/big-tech-stocks-winning-streaks-oracle-amd-microsoft-igv-.html",
+      "publishedAt": "2026-04-17T20:21:55.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "The Nasdaq&apos;s win streak, Netflix earnings, another AI pivot and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-04-17T15:40:35.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+      "description": "A White House spokesperson told CNBC the administration had been working with industry leaders to mitigate disruption brought about by the conflict.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/us-tech-lobbying-government-iran-war.html",
+      "publishedAt": "2026-04-17T11:18:55.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Nvidia AI chip rivals attract record funding as competition heats up",
+      "description": "A growing crop of startups are set on challenging the chip giant's supremacy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html",
+      "publishedAt": "2026-04-17T11:22:13.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Uber Eats has a fix for pesky returns. You can just sit on the couch",
+      "description": "The Uber Eats return pickup feature applies to items bought through the app from Best Buy, Dick's Sporting Goods, Petco and more.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/uber-eats-returns-pickup-retail-app.html",
+      "publishedAt": "2026-04-17T14:08:29.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+      "description": "欧洲央行管理委员会成员Martins Kazaks表示，欧洲央行下一步利率行动未必会是加息。 尽管他目前认为没有理由质疑市场对今年加息两次的预期，但这只是多种可能情形之一。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
+      "publishedAt": "2026-04-17T20:43:28.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+      "description": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结 2、伊朗官方媒体报道：若美国继续海上封锁，伊朗将关闭 3...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
+      "publishedAt": "2026-04-17T20:42:22.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+      "description": " 据媒体援引三位未具名知情人士报道，Meta计划于5月20日进行一轮裁员，全球约10%的员工将受到影响，之后还将有进一步裁员。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6084795.shtml",
+      "publishedAt": "2026-04-17T20:25:00.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+      "description": "4月18日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收高0.53%。 上涨股（按市值从高到低）：台积电涨1.98%，阿里巴巴涨1.73%，拼多多涨1.04%，日月光半导体涨3.55%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879873.shtml",
+      "publishedAt": "2026-04-17T20:24:12.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+      "description": "欧洲央行管理委员会成员Martin Kocher表示，欧洲央行必须避免因中东冲突而采取本能式的政策反应。 “我们有必要明确传达，我们不会接受偏离自身职责的通胀走势...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
+      "publishedAt": "2026-04-17T20:19:08.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+      "description": "欧洲央行管理委员会成员Martins Kazaks表示，欧洲央行下一步利率行动未必会是加息。 尽管他目前认为没有理由质疑市场对今年加息两次的预期，但这只是多种可能情形之一。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
+      "publishedAt": "2026-04-17T20:43:28.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+      "description": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结 2、伊朗官方媒体报道：若美国继续海上封锁，伊朗将关闭 3...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
+      "publishedAt": "2026-04-17T20:42:22.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+      "description": " 据媒体援引三位未具名知情人士报道，Meta计划于5月20日进行一轮裁员，全球约10%的员工将受到影响，之后还将有进一步裁员。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6084795.shtml",
+      "publishedAt": "2026-04-17T20:25:00.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+      "description": "4月18日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收高0.53%。 上涨股（按市值从高到低）：台积电涨1.98%，阿里巴巴涨1.73%，拼多多涨1.04%，日月光半导体涨3.55%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879873.shtml",
+      "publishedAt": "2026-04-17T20:24:12.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+      "description": "欧洲央行管理委员会成员Martin Kocher表示，欧洲央行必须避免因中东冲突而采取本能式的政策反应。 “我们有必要明确传达，我们不会接受偏离自身职责的通胀走势...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
+      "publishedAt": "2026-04-17T20:19:08.000Z"
+    }
+  ]
+}
