@@ -112,8 +112,8 @@ async function fetchMarkets(): Promise<MarketQuote[]> {
         price,
         change: change != null ? Math.round(change * 100) / 100 : null,
         changePercent: changePercent != null ? Math.round(changePercent * 100) / 100 : null,
-        currency: meta.currency ?? null,
-        marketState: meta.marketState ?? null,
+        currency: (meta.currency as string) ?? null,
+        marketState: (meta.marketState as string) ?? null,
         fetchedAt: new Date().toISOString(),
       });
       console.log(`   ✓ ${symbol} (${label}): ${price}`);
@@ -159,9 +159,9 @@ async function fetchSparklines(): Promise<SparklineData[]> {
         interval: "1d",
       });
       const closes = (chart.quotes ?? [])
-        .filter((q: { close?: number | null }) => q.close != null)
+        .filter((q) => q.close != null)
         .slice(-7)
-        .map((q: { close: number }) => q.close);
+        .map((q) => q.close as number);
       results.push({ symbol, closes });
       console.log(`   ✓ ${symbol}: ${closes.length} data points`);
     } catch (err) {
