@@ -16,7 +16,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const yf = new YahooFinance({ suppressNotices: ["yahooSurvey"] });
+const yf = new YahooFinance({ suppressNotices: ["yahooSurvey", "ripHistorical"] });
 
 // ──────────────────────────────────────────────
 // Config
@@ -89,24 +89,34 @@ interface MarketQuote {
 }
 
 async function fetchMarkets(): Promise<MarketQuote[]> {
-  console.log("📈 Fetching market data from Yahoo Finance …");
+  console.log("📈 Fetching market data from Yahoo Finance (via chart API) …");
   const results: MarketQuote[] = [];
 
   for (const { symbol, label, region } of MARKET_SYMBOLS) {
     try {
-      const quote = await yf.quote(symbol);
+      // Use chart() instead of quote() — more reliable from datacenter IPs
+      const twoDaysAgo = new Date(Date.now() - 3 * 86_400_000);
+      const chart = await yf.chart(symbol, { period1: twoDaysAgo, interval: "1d" });
+      const meta = chart.meta;
+      const lastQuote = chart.quotes?.[chart.quotes.length - 1];
+
+      const price = meta.regularMarketPrice ?? lastQuote?.close ?? null;
+      const prevClose = meta.chartPreviousClose ?? meta.previousClose ?? null;
+      const change = price != null && prevClose != null ? price - prevClose : null;
+      const changePercent = change != null && prevClose ? (change / prevClose) * 100 : null;
+
       results.push({
         symbol,
         label,
         region,
-        price: quote.regularMarketPrice ?? null,
-        change: quote.regularMarketChange ?? null,
-        changePercent: quote.regularMarketChangePercent ?? null,
-        currency: quote.currency ?? null,
-        marketState: quote.marketState ?? null,
+        price,
+        change: change != null ? Math.round(change * 100) / 100 : null,
+        changePercent: changePercent != null ? Math.round(changePercent * 100) / 100 : null,
+        currency: meta.currency ?? null,
+        marketState: meta.marketState ?? null,
         fetchedAt: new Date().toISOString(),
       });
-      console.log(`   ✓ ${symbol} (${label}): ${quote.regularMarketPrice}`);
+      console.log(`   ✓ ${symbol} (${label}): ${price}`);
     } catch (err) {
       console.error(`   ✗ ${symbol}: ${(err as Error).message}`);
       results.push({
@@ -143,15 +153,15 @@ async function fetchSparklines(): Promise<SparklineData[]> {
 
   for (const { symbol } of MARKET_SYMBOLS) {
     try {
-      const history = await yf.historical(symbol, {
+      const chart = await yf.chart(symbol, {
         period1: start,
         period2: end,
         interval: "1d",
       });
-      const closes = history
-        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+      const closes = (chart.quotes ?? [])
+        .filter((q: { close?: number | null }) => q.close != null)
         .slice(-7)
-        .map((d) => d.close);
+        .map((q: { close: number }) => q.close);
       results.push({ symbol, closes });
       console.log(`   ✓ ${symbol}: ${closes.length} data points`);
     } catch (err) {
