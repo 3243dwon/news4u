@@ -24,6 +24,88 @@ const ROOT = path.resolve(__dirname, "..");
 
 const MODEL = "claude-sonnet-4-20250514";
 
+/**
+ * Best-effort repair for JSON that was truncated mid-output
+ * (e.g. hit max_tokens limit). Walks backwards to a complete boundary
+ * and closes any unclosed arrays/objects.
+ */
+function tryRepairTruncatedJSON(text: string): string | null {
+  // Find the last complete top-level object/array boundary by scanning
+  // bracket depth, ignoring content inside strings.
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+  let lastGoodEnd = -1;
+  const stack: string[] = [];
+
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (escape) {
+      escape = false;
+      continue;
+    }
+    if (c === "\\") {
+      escape = true;
+      continue;
+    }
+    if (c === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (inString) continue;
+
+    if (c === "{" || c === "[") {
+      stack.push(c);
+      depth++;
+    } else if (c === "}" || c === "]") {
+      stack.pop();
+      depth--;
+      if (depth === 0) lastGoodEnd = i;
+    }
+  }
+
+  // If we ended inside a string or object, try closing everything.
+  if (depth === 0) return null;
+
+  // Strategy: truncate at the last complete property (trailing comma),
+  // then close the open brackets in reverse stack order.
+  let truncateAt = text.length;
+  // Find last comma or closing brace/bracket that's not inside a string,
+  // walking backwards.
+  let localDepth = depth;
+  let localInString = false;
+  let localEscape = false;
+  for (let i = text.length - 1; i > lastGoodEnd; i--) {
+    const c = text[i];
+    if (localEscape) {
+      localEscape = false;
+      continue;
+    }
+    if (c === "\\") {
+      localEscape = true;
+      continue;
+    }
+    if (c === '"') {
+      localInString = !localInString;
+      continue;
+    }
+    if (localInString) continue;
+    if (c === "}" || c === "]") localDepth++;
+    if (c === "{" || c === "[") localDepth--;
+    if (c === "," && localDepth === depth) {
+      truncateAt = i;
+      break;
+    }
+  }
+
+  let repaired = text.slice(0, truncateAt);
+  // Close remaining open brackets
+  for (let i = stack.length - 1; i >= 0; i--) {
+    repaired += stack[i] === "{" ? "}" : "]";
+  }
+  return repaired;
+}
+
 function today(): string {
   const d = new Date();
   const y = d.getFullYear();
@@ -199,7 +281,7 @@ async function main() {
 
   const response = await client.messages.create({
     model: MODEL,
-    max_tokens: 4096,
+    max_tokens: 8192,
     system: SYSTEM_PROMPT,
     messages: [
       {
@@ -230,15 +312,29 @@ async function main() {
   try {
     edition = JSON.parse(jsonText);
   } catch (err) {
-    console.error("✗ Failed to parse Claude response as JSON:");
-    console.error((err as Error).message);
-    console.error("\nRaw response:\n", jsonText.slice(0, 500));
+    console.warn("⚠ Failed to parse Claude response as JSON, attempting auto-repair …");
+    console.warn((err as Error).message);
 
-    // Write raw response for debugging
-    const debugPath = path.join(ROOT, "data", "editions", `${date}.debug.txt`);
-    fs.writeFileSync(debugPath, textBlock.text, "utf-8");
-    console.error(`  Debug output written to ${debugPath}`);
-    process.exit(1);
+    // Heuristic 1: truncation recovery — if JSON was cut off mid-string,
+    // try closing open brackets / braces to salvage partial content.
+    const repaired = tryRepairTruncatedJSON(jsonText);
+    if (repaired) {
+      try {
+        edition = JSON.parse(repaired);
+        console.warn("   ✓ Auto-repair succeeded (partial content recovered).");
+      } catch {
+        // repair failed too — write debug and exit
+        const debugPath = path.join(ROOT, "data", "editions", `${date}.debug.txt`);
+        fs.writeFileSync(debugPath, textBlock.text, "utf-8");
+        console.error(`✗ Auto-repair failed. Debug output at ${debugPath}`);
+        process.exit(1);
+      }
+    } else {
+      const debugPath = path.join(ROOT, "data", "editions", `${date}.debug.txt`);
+      fs.writeFileSync(debugPath, textBlock.text, "utf-8");
+      console.error(`✗ Could not repair. Debug output at ${debugPath}`);
+      process.exit(1);
+    }
   }
 
   // 4. Merge sparkline data from raw (bypass Claude)
