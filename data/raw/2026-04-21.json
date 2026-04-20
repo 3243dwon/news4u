@@ -1,0 +1,635 @@
+{
+  "date": "2026-04-21",
+  "fetchedAt": "2026-04-20T20:48:05.620Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7109.14,
+      "change": -16.92,
+      "changePercent": -0.24,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.637Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24404.393,
+      "change": -64.09,
+      "changePercent": -0.26,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.673Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49442.56,
+      "change": -4.87,
+      "changePercent": -0.01,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.822Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10609.08,
+      "change": -58.52,
+      "changePercent": -0.55,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.876Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24417.8,
+      "change": -284.44,
+      "changePercent": -1.15,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.908Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 58824.89,
+      "change": 348.99,
+      "changePercent": 0.6,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.953Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4082.127,
+      "change": 30.7,
+      "changePercent": 0.76,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:03.989Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4757.442,
+      "change": 28.77,
+      "changePercent": 0.61,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.023Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14966.747,
+      "change": 81.33,
+      "changePercent": 0.55,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.067Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26361.07,
+      "change": 200.74,
+      "changePercent": 0.77,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.105Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8899.06,
+      "change": 54.04,
+      "changePercent": 0.61,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.167Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.198Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 94.91,
+      "change": 4.53,
+      "changePercent": 5.01,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.234Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4835.9,
+      "change": -21.7,
+      "changePercent": -0.45,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.266Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8167,
+      "change": 0,
+      "changePercent": -0.06,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-20T20:48:04.410Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        6816.89013671875,
+        6886.240234375,
+        6967.3798828125,
+        7022.9501953125,
+        7041.27978515625,
+        7126.06005859375,
+        7109.14013671875
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        22902.890625,
+        23183.740234375,
+        23639.080078125,
+        24016.01953125,
+        24102.69921875,
+        24468.48046875,
+        24404.392578125
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        47916.5703125,
+        48218.25,
+        48535.98828125,
+        48463.71875,
+        48578.71875,
+        49447.4296875,
+        49442.55859375
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10600.5,
+        10583,
+        10609.099609375,
+        10559.599609375,
+        10590,
+        10667.599609375,
+        10609.080078125
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        23803.94921875,
+        23742.439453125,
+        24044.220703125,
+        24066.69921875,
+        24154.470703125,
+        24702.240234375,
+        24417.80078125
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        56502.76953125,
+        57877.390625,
+        58134.23828125,
+        59518.33984375,
+        58475.8984375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        3988.55810546875,
+        4026.625,
+        4027.208984375,
+        4055.547119140625,
+        4051.425048828125
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4646.16015625,
+        4701.27978515625,
+        4685.25,
+        4736.60986328125,
+        4728.669921875
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14407.8603515625,
+        14639.9501953125,
+        14498.4599609375,
+        14796.330078125,
+        14885.419921875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25660.849609375,
+        25872.3203125,
+        25947.3203125,
+        26394.259765625,
+        26160.330078125
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8602.0595703125,
+        8671.6103515625,
+        8718.259765625,
+        8905.1103515625,
+        8845.01953125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        95.19999694824219,
+        99.36000061035156,
+        94.79000091552734,
+        94.93000030517578,
+        99.38999938964844,
+        90.37999725341797,
+        94.91000366210938
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4761.89990234375,
+        4742.39990234375,
+        4825,
+        4800,
+        4785.39990234375,
+        4857.60009765625,
+        4835.89990234375
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.8277997970581055,
+        6.8302998542785645,
+        6.815700054168701,
+        6.817999839782715,
+        6.821100234985352,
+        6.816999912261963,
+        6.816699981689453
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-20T20:48:03.616Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-20T20:48:03.744Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-20T20:48:03.811Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Apple names John Ternus as CEO to replace Tim Cook, who will become chairman",
+      "description": "Apple said on Monday that John Ternus is succeeding Tim Cook as CEO, with Cook assuming the role of executive chairman on Sept. 1.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+      "publishedAt": "2026-04-20T20:47:05.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Tariff refunds begin on Monday. These retailers are due big paydays",
+      "description": "U.S. importers, such as Walmart and Target, could be in line for billions in tariff refunds as the government launches its claims-filing portal on Monday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/tariff-refunds-begin-on-monday-these-retailers-are-due-big-paydays.html",
+      "publishedAt": "2026-04-20T19:05:08.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
+      "description": "Amazon is boosting its investment in Anthropic, which is committing to spending over $100 billion on Amazon cloud services over the next decade. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "publishedAt": "2026-04-20T20:30:09.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Chair nominee Kevin Warsh says Fed must ‘stay in its lane’ to maintain independence",
+      "description": "Warsh also expressed firm commitment to fighting inflation with only one mention of the labor market.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/kevin-warsh-fed-confirmation-senate.html",
+      "publishedAt": "2026-04-20T17:38:52.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "HSBC is ‘max bullish’ stocks, saying Iran conflict is not a game changer",
+      "description": "HSBC argued that the market rally to new heights over the past few days is very much in line with historical precedent.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/hsbc-is-max-bullish-stocks-saying-iran-conflict-is-not-a-game-changer.html",
+      "publishedAt": "2026-04-20T20:17:35.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump threatens Iran again as ceasefire deadline looms, U.S. gears up for peace talks",
+      "description": "Trump reportedly said Sunday that if Iran doesn't sign a deal, \"the whole country is going to get blown up,\" with its bridges and power plants being targeted.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/trump-defense-iran-war-pakistan-vance-witkoff-kushner.html",
+      "publishedAt": "2026-04-20T18:55:17.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Amazon &apos;strong-armed&apos; Levi&apos;s, Hanes to hike prices on rival sites, California DA says ",
+      "description": "Amazon allegedly coerced major vendors into convincing rival retailers like Walmart, Target and Home Depot to raise prices",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/california-da-amazon-price-fixing-walmart-target.html",
+      "publishedAt": "2026-04-20T19:33:28.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Investors are misreading news about the Iran war, analysts say as markets whipsaw",
+      "description": "Monday's declines put the brakes on another rapid recovery in global stock indexes akin to last year's 'liberation day' bounce.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/market-optimism-iran-war-equities-markets.html",
+      "publishedAt": "2026-04-20T16:20:46.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "The insider trading suspicions looming over Trump's presidency",
+      "description": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T13:53:22.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Another flight leaves passengers behind due to border delays",
+      "description": "New European border rules have caused delays at airports across the continent, affecting flights.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cvg3xzxpv32o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T17:04:47.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Trump tariff refunds begin but consumers likely to miss out",
+      "description": "Businesses can apply online through a portal for refunds expected to total $160bn. ",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T18:25:17.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Blue Origin rocket grounded after satellite 'mishap'",
+      "description": "The firm founded by Amazon billionaire Jeff Bezos is investigating the failed launch.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T19:56:11.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil prices rise after Trump says Iranian ship seized",
+      "description": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T20:33:01.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Why your recycled clothes could end up in this South American desert",
+      "description": "Old garments from around the world are being discarded in the South American country.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c62kg63k8v6o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-19T23:02:11.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "How the Iran war affects your money and bills",
+      "description": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T10:45:42.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "What's happening to UK petrol and diesel prices?",
+      "description": "UK petrol and diesel prices have started to fall after 46 consecutive days of rises at the pump.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T10:00:51.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple names John Ternus as CEO to replace Tim Cook, who will become chairman",
+      "description": "Apple said on Monday that John Ternus is succeeding Tim Cook as CEO, with Cook assuming the role of executive chairman on Sept. 1.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+      "publishedAt": "2026-04-20T20:47:05.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
+      "description": "Amazon is boosting its investment in Anthropic, which is committing to spending over $100 billion on Amazon cloud services over the next decade. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "publishedAt": "2026-04-20T20:30:09.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon &apos;strong-armed&apos; Levi&apos;s, Hanes to hike prices on rival sites, California DA says ",
+      "description": "Amazon allegedly coerced major vendors into convincing rival retailers like Walmart, Target and Home Depot to raise prices",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/california-da-amazon-price-fixing-walmart-target.html",
+      "publishedAt": "2026-04-20T19:33:28.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "U.S. seizes Iranian-flagged ship, Warsh&apos;s big week, Cursor funding and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-04-20T12:21:59.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AI startup Cursor in talks to raise $2 billion funding round at valuation of over $50 billion",
+      "description": "Artificial intelligence startup Cursor in talks to raise a $2 billion fundraising round at an over $50 billion valuation, which does not include the investment.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html",
+      "publishedAt": "2026-04-19T21:19:57.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "SiIicon Valley&apos;s AI agent hiccups: Wasted tokens and &apos;chaotic&apos; systems",
+      "description": "Nvidia CEO Jensen Huang told CNBC's Jim Cramer in March that AI agents are \"definitely the next ChatGPT.\"",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/19/siiicon-valley-ai-agent-openclaw-problems.html",
+      "publishedAt": "2026-04-19T12:00:01.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Here are 3 forces that drove a remarkable, record-setting week on Wall Street",
+      "description": "The S&P 500 closed above 7,100 for the first time as it completed its fastest turnaround since 1990. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/the-3-forces-that-drove-a-remarkable-record-setting-week-on-wall-street.html",
+      "publishedAt": "2026-04-18T14:13:04.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Nvidia&apos;s once-tight bond with gamers is cracking over AI",
+      "description": "Gamers once helped save Nvidia from bankruptcy. Now they feel left behind as the memory crunch drives focus to AI chips and DLSS 5 disrupts game design.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
+      "publishedAt": "2026-04-19T11:37:41.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "优步被指规避加州法律，逃避司机诉讼责任",
+      "description": " 一个代表网约车司机的倡导组织周一发布报告称，优步正通过法律手段规避加州一项旨在保护司机诉讼权利的法律，使大量司机无法就工资盗窃、歧视等问题提起诉讼。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfu7221709.shtml",
+      "publishedAt": "2026-04-20T20:47:15.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月21日美股成交额前20：黄仁勋称美国芯片管制是典型的“失败者心态”",
+      "description": "周一美股成交额第1名特斯拉收跌2.03%，成交252.93亿美元。据媒体报道，特斯拉CEO马斯克与欧洲监管机构之间的紧张关系再度升级。这位科技亿万富翁周一被曝无视法国检方的正...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfp8166952.shtml",
+      "publishedAt": "2026-04-20T20:44:25.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "苹果公司任命约翰·特努斯为首席执行官 9月1日起生效",
+      "description": "苹果公司表示，硬件工程高级副总裁约翰·特努斯（John Ternus）将于9月1日起担任首席执行官。 现任首席执行官蒂姆·库克将出任执行董事长。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-04-21/doc-inhvexft0443596.shtml",
+      "publishedAt": "2026-04-20T20:42:07.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月21日热门中概股涨跌不一 联电涨8.28%，禾赛科技跌5.81%",
+      "description": "4月21日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收跌0.32%。 上涨股（按市值从高到低）：网易涨0.01%，日月光半导体涨2.34%，百度涨1.28%，联电涨8.28%，中通涨0...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfu7218012.shtml",
+      "publishedAt": "2026-04-20T20:24:44.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美联储主席候选人沃什：承诺保持货币政策独立性，特朗普表达利率观点并不构成威胁",
+      "description": "美国国会当地时间周二将举行首场美联储主席提名人沃什的确认听证会，沃什将向国会议员承诺，在利率问题上保持严格独立性。但特朗普针对货币政策发表的相关看法...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-04-21/doc-inhvexfu7217209.shtml",
+      "publishedAt": "2026-04-20T20:19:39.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "优步被指规避加州法律，逃避司机诉讼责任",
+      "description": " 一个代表网约车司机的倡导组织周一发布报告称，优步正通过法律手段规避加州一项旨在保护司机诉讼权利的法律，使大量司机无法就工资盗窃、歧视等问题提起诉讼。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfu7221709.shtml",
+      "publishedAt": "2026-04-20T20:47:15.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月21日美股成交额前20：黄仁勋称美国芯片管制是典型的“失败者心态”",
+      "description": "周一美股成交额第1名特斯拉收跌2.03%，成交252.93亿美元。据媒体报道，特斯拉CEO马斯克与欧洲监管机构之间的紧张关系再度升级。这位科技亿万富翁周一被曝无视法国检方的正...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfp8166952.shtml",
+      "publishedAt": "2026-04-20T20:44:25.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "苹果公司任命约翰·特努斯为首席执行官 9月1日起生效",
+      "description": "苹果公司表示，硬件工程高级副总裁约翰·特努斯（John Ternus）将于9月1日起担任首席执行官。 现任首席执行官蒂姆·库克将出任执行董事长。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-04-21/doc-inhvexft0443596.shtml",
+      "publishedAt": "2026-04-20T20:42:07.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月21日热门中概股涨跌不一 联电涨8.28%，禾赛科技跌5.81%",
+      "description": "4月21日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收跌0.32%。 上涨股（按市值从高到低）：网易涨0.01%，日月光半导体涨2.34%，百度涨1.28%，联电涨8.28%，中通涨0...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-21/doc-inhvexfu7218012.shtml",
+      "publishedAt": "2026-04-20T20:24:44.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美联储主席候选人沃什：承诺保持货币政策独立性，特朗普表达利率观点并不构成威胁",
+      "description": "美国国会当地时间周二将举行首场美联储主席提名人沃什的确认听证会，沃什将向国会议员承诺，在利率问题上保持严格独立性。但特朗普针对货币政策发表的相关看法...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-04-21/doc-inhvexfu7217209.shtml",
+      "publishedAt": "2026-04-20T20:19:39.000Z"
+    }
+  ]
+}
