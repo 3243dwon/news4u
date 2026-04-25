@@ -1,0 +1,647 @@
+{
+  "date": "2026-04-26",
+  "fetchedAt": "2026-04-25T20:39:50.414Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7165.08,
+      "change": 27.18,
+      "changePercent": 0.38,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.408Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24836.598,
+      "change": 179.03,
+      "changePercent": 0.73,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.459Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49230.71,
+      "change": -259.32,
+      "changePercent": -0.52,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.495Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10379.08,
+      "change": -97.42,
+      "changePercent": -0.93,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.545Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24128.98,
+      "change": -65.92,
+      "changePercent": -0.27,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.627Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59716.18,
+      "change": 130.32,
+      "changePercent": 0.22,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.657Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4079.9,
+      "change": -26.36,
+      "changePercent": -0.64,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.686Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4769.369,
+      "change": -30.26,
+      "changePercent": -0.63,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.797Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14940.301,
+      "change": -236.99,
+      "changePercent": -1.56,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.907Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25978.07,
+      "change": -185.17,
+      "changePercent": -0.71,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:47.959Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8775.62,
+      "change": -26.16,
+      "changePercent": -0.3,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:48.060Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:48.113Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 99.13,
+      "change": -2.78,
+      "changePercent": -2.73,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:48.145Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4740.9,
+      "change": 8.4,
+      "changePercent": 0.18,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:48.180Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8354,
+      "change": 0.01,
+      "changePercent": 0.21,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-25T20:39:48.307Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7041.27978515625,
+        7126.06005859375,
+        7109.14013671875,
+        7064.009765625,
+        7137.89990234375,
+        7108.39990234375,
+        7165.080078125
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24102.69921875,
+        24468.48046875,
+        24404.390625,
+        24259.9609375,
+        24657.5703125,
+        24438.5,
+        24836.599609375
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        48578.71875,
+        49447.4296875,
+        49442.55859375,
+        49149.37890625,
+        49490.03125,
+        49310.3203125,
+        49230.7109375
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10590,
+        10667.599609375,
+        10609.099609375,
+        10498.099609375,
+        10476.5,
+        10457,
+        10379.099609375
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24154.470703125,
+        24702.240234375,
+        24417.80078125,
+        24270.869140625,
+        24194.900390625,
+        24155.44921875,
+        24128.98046875
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        59518.33984375,
+        58475.8984375,
+        58824.890625,
+        59349.171875,
+        59585.859375,
+        59140.23046875,
+        59716.1796875
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4055.547119140625,
+        4051.425048828125,
+        4082.126953125,
+        4085.076904296875,
+        4106.2578125,
+        4093.25,
+        4079.89990234375
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4736.60986328125,
+        4728.669921875,
+        4757.43994140625,
+        4768,
+        4799.6298828125,
+        4786.330078125,
+        4769.3701171875
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14796.330078125,
+        14885.419921875,
+        14966.75,
+        14982.1396484375,
+        15177.2900390625,
+        15043.4501953125,
+        14940.2998046875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        26394.259765625,
+        26160.330078125,
+        26361.0703125,
+        26487.48046875,
+        26163.240234375,
+        25915.19921875,
+        25978.0703125
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8905.1103515625,
+        8845.01953125,
+        8899.0595703125,
+        8943.5400390625,
+        8801.7802734375,
+        8732.6298828125,
+        8775.6201171875
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        99.38999938964844,
+        90.37999725341797,
+        95.4800033569336,
+        98.4800033569336,
+        101.91000366210938,
+        105.06999969482422,
+        105.33000183105469
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4785.39990234375,
+        4857.60009765625,
+        4806.60009765625,
+        4698.39990234375,
+        4732.5,
+        4705.10009765625,
+        4722.2998046875
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.821100234985352,
+        6.816999912261963,
+        6.817399978637695,
+        6.820799827575684,
+        6.82420015335083,
+        6.826000213623047,
+        6.835400104522705
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-25T20:39:47.370Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-25T20:39:47.528Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-25T20:39:47.621Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: &apos;If they want to talk, all they have to do is call&apos;",
+      "description": "U.S. special envoy Steve Witkoff and Jared Kushner had been expected to arrive in Islamabad on Saturday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/iran-says-no-meeting-with-us-negotiators-planned-in-pakistan.html",
+      "publishedAt": "2026-04-25T19:33:33.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+      "description": "Software giants are seeing their worst stock performance in years on fears of AI disruption. Now they have a new problem. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html",
+      "publishedAt": "2026-04-25T12:43:39.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+      "description": "The decision could have important ramifications for policymaking at an especially delicate time.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/will-he-stay-or-will-he-go-with-criminal-probe-over-fed-chair-powell-faces-big-decision.html",
+      "publishedAt": "2026-04-24T19:19:00.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "U.S. imposes sanctions on Chinese &apos;teapot&apos; refinery for buying Iranian oil",
+      "description": "The Office of Foreign Assets Control said it imposed sanctions on about 40 shipping companies and vessels that operate as part of Iran's shadow fleet.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/us-china-sanctions-iran-oil.html",
+      "publishedAt": "2026-04-25T18:49:47.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Wall Street is getting bullish on neoclouds. These stocks hold more risk than other AI plays",
+      "description": "Neoclouds emerged as stopgaps to address the GPU shortage, but their economics are fragile, McKinsey has warned.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/wall-street-is-getting-bullish-on-neoclouds-these-stocks-hold-more-risk-than-other-ai-plays.html",
+      "publishedAt": "2026-04-25T12:13:49.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Morgan Stanley says these top stocks have more room to run ahead of earnings",
+      "description": "Morgan Stanley named five stocks that have plenty of upside going into earnings.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/morgan-stanley-makes-top-stocks-heading-into-earnings.html",
+      "publishedAt": "2026-04-25T12:18:51.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump and journalists will be closely watched to see how they get along at White House correspondents&apos; dinner",
+      "description": "The Republican president did not attend the dinner during his first term or the first year of his second.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/trump-white-house-correspondents-dinner.html",
+      "publishedAt": "2026-04-25T17:37:33.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Berkshire attracts interest as it slips further behind the S&amp;P 500",
+      "description": "As Berkshire Hathaway shares fall, the stock is drawing attention from some investors.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/berkshire-attracts-interest-as-it-slips-further-behind-the-sp-500.html",
+      "publishedAt": "2026-04-25T12:35:30.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "China car giant BYD says it can thrive without US",
+      "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels. ",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T21:25:16.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Stock markets are too high and set to fall, says Bank of England deputy",
+      "description": "It is unusual for a senior figure at the Bank to be so forthright on market movements.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c75kp1y43lgo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T09:03:21.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "US justice department drops probe into Fed chairman Jerome Powell",
+      "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T19:10:25.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "How does it affect me if share prices fall?",
+      "description": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c33zdz2m1e2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T09:39:48.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "White House memo claims mass AI theft by Chinese firms",
+      "description": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T00:58:58.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "From scientist to silk farmer: India's silk industry renewal",
+      "description": "Silk production is an increasingly high-tech business in India. ",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c0e7le127v5o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-23T23:50:01.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Which airlines are cancelling flights to the UK - and what can you do?",
+      "description": "Airlines are putting up prices and cancelling flights in response to higher jet fuel prices.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cr41yel6v4eo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T11:01:58.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "US soldier charged after winning $400,000 betting on removal of Maduro",
+      "description": "Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T00:21:32.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "From car and phone to tractor owners, a populist wave is rising to end the &apos;captive&apos; repair economy",
+      "description": "\"Right to repair\" legislation is an issue that political candidates across the U.S. have made part of their affordability messaging.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/right-to-repair-consumer-prices-affordability-economy-elections.html",
+      "publishedAt": "2026-04-25T14:17:59.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+      "description": "Software giants are seeing their worst stock performance in years on fears of AI disruption. Now they have a new problem. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html",
+      "publishedAt": "2026-04-25T12:43:39.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Wall Street is getting bullish on neoclouds. These stocks hold more risk than other AI plays",
+      "description": "Neoclouds emerged as stopgaps to address the GPU shortage, but their economics are fragile, McKinsey has warned.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/wall-street-is-getting-bullish-on-neoclouds-these-stocks-hold-more-risk-than-other-ai-plays.html",
+      "publishedAt": "2026-04-25T12:13:49.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "We tried out xAI&apos;s Grok chatbot while driving a Tesla in NYC. Here&apos;s what happened.",
+      "description": "CNBC takes a ride with a Tesla Model Y owner in New York City to see how he uses Grok and  how it integrates into Tesla's Full Self-Driving (Supervised).",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/tesla-and-xais-grok-shows-promises-and-risks-of-ai-chatbots-in-cars.html",
+      "publishedAt": "2026-04-25T12:00:01.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Cramer&apos;s week ahead: Record highs meet a pivotal week for tech earnings",
+      "description": "Jim Cramer said this market has become a \"beast\". His gameplan highlights a packed slate of tech earnings which will determine whether the surge can continue. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/cramers-week-ahead-record-highs-meet-a-pivotal-week-for-tech-earnings.html",
+      "publishedAt": "2026-04-24T22:29:16.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+      "description": "Nvidia's stock closed at its first record since October, as a rally in Intel pushed chipmakers higher. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/nvidia-stock-closes-at-record-pushing-market-cap-past-5-trillion.html",
+      "publishedAt": "2026-04-24T22:40:51.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "How a new Amazon-backed Hollywood production startup deploys AI for speed and cost-cutting",
+      "description": "A new AI-powered hybrid Hollywood startup backed by AWS is betting that cutting-edge production tech can cut costs, speed up filming and bring jobs back to LA.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/an-aws-backed-hollywood-startup-deploys-ai-for-speed-and-cost-cutting.html",
+      "publishedAt": "2026-04-24T19:06:39.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon custom chips get a boost from Meta, giving the cloud giant another path to win in AI",
+      "description": "Amazon hits a record high after its new Meta deal highlights how AWS is gaining traction in AI through both cloud capacity and its custom chips.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/amazon-custom-chips-get-a-boost-from-meta-giving-the-cloud-giant-another-path-to-win-in-ai.html",
+      "publishedAt": "2026-04-24T19:11:46.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "特朗普：绝不允许银行破坏加密货币市场法案",
+      "description": " 据CoinDesk援引现场与会人士消息，特朗普在佛罗里达州海湖庄园的私人活动上表示，白宫不会任由银行阻挠、破坏数字资产市场监管立法。",
+      "source": "滚动播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvuaqt0347955.shtml",
+      "publishedAt": "2026-04-25T19:59:04.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "披露文件显示，特朗普3月份购买了至少5100万美元的债券",
+      "description": "据周六公布的财务披露文件显示，美国总统特朗普3月份购买了至少5100万美元的债券，涉及多个行业。 根据美国政府道德办公室发布的表格，特朗普上月进行了175笔金融交易。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvtwhz0638342.shtml",
+      "publishedAt": "2026-04-25T17:35:46.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "特朗普取消库什纳与威特科夫赴巴基斯坦参与伊朗问题谈判之行",
+      "description": "白宫新闻秘书莱维特表示，美国总统特朗普已取消其高级特使原计划前往巴基斯坦、就伊朗冲突进行谈判的行程新华网。 她称，总统于周六告知其女婿贾里德・库什纳和特使史蒂夫...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvtwhz0616368.shtml",
+      "publishedAt": "2026-04-25T16:06:11.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美国共和党调整中期选举策略：沿用特朗普政策，淡化其个人影响",
+      "description": "美国油价攀升、特朗普支持率下滑、伊朗战争久拖不决，在此背景下，共和党正重新制定11月中期选举的竞选纲领。 核心策略：借助特朗普的选民动员力...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvtryz3949192.shtml",
+      "publishedAt": "2026-04-25T14:27:43.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "Momenta曹旭东：海外车企应跟中国模式学习，做反向合资反哺当地",
+      "description": " 新浪科技讯 4月25日晚间消息，日前2026北京车展开幕，Momenta期间举办“Momenta R7，物理AI序章”主题分享会。会后，Momenta CEO 曹旭东与新浪科技等媒体进行对话。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-04-25/doc-inhvtryx0537249.shtml",
+      "publishedAt": "2026-04-25T14:16:48.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "特朗普：绝不允许银行破坏加密货币市场法案",
+      "description": " 据CoinDesk援引现场与会人士消息，特朗普在佛罗里达州海湖庄园的私人活动上表示，白宫不会任由银行阻挠、破坏数字资产市场监管立法。",
+      "source": "滚动播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvuaqt0347955.shtml",
+      "publishedAt": "2026-04-25T19:59:04.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "披露文件显示，特朗普3月份购买了至少5100万美元的债券",
+      "description": "据周六公布的财务披露文件显示，美国总统特朗普3月份购买了至少5100万美元的债券，涉及多个行业。 根据美国政府道德办公室发布的表格，特朗普上月进行了175笔金融交易。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvtwhz0638342.shtml",
+      "publishedAt": "2026-04-25T17:35:46.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "特朗普取消库什纳与威特科夫赴巴基斯坦参与伊朗问题谈判之行",
+      "description": "白宫新闻秘书莱维特表示，美国总统特朗普已取消其高级特使原计划前往巴基斯坦、就伊朗冲突进行谈判的行程新华网。 她称，总统于周六告知其女婿贾里德・库什纳和特使史蒂夫...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/7x24/2026-04-26/doc-inhvtwhz0616368.shtml",
+      "publishedAt": "2026-04-25T16:06:11.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "两日内4位主播离职，东方甄选“F4”正式解散",
+      "description": "中华网财经文丨罗曾 4月25日，东方甄选主播再减员：中灿、林林发文官宣离职。而在前一日晚间，东方甄选人力资源部通过其官方App社区发布公告...",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-04-25/doc-inhvtrzc0731391.shtml",
+      "publishedAt": "2026-04-25T14:41:38.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美国共和党调整中期选举策略：沿用特朗普政策，淡化其个人影响",
+      "description": "美国油价攀升、特朗普支持率下滑、伊朗战争久拖不决，在此背景下，共和党正重新制定11月中期选举的竞选纲领。 核心策略：借助特朗普的选民动员力...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvtryz3949192.shtml",
+      "publishedAt": "2026-04-25T14:27:43.000Z"
+    }
+  ]
+}
