@@ -1,0 +1,635 @@
+{
+  "date": "2026-04-28",
+  "fetchedAt": "2026-04-27T21:03:04.889Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7173.91,
+      "change": 8.83,
+      "changePercent": 0.12,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.305Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24887.1,
+      "change": 50.5,
+      "changePercent": 0.2,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.457Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49167.79,
+      "change": -62.92,
+      "changePercent": -0.13,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.535Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10321.09,
+      "change": -58.01,
+      "changePercent": -0.56,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.573Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24083.53,
+      "change": -45.45,
+      "changePercent": -0.19,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.637Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 60537.36,
+      "change": 821.18,
+      "changePercent": 1.38,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.672Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4086.3442,
+      "change": 6.44,
+      "changePercent": 0.16,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.708Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4770.947,
+      "change": 1.58,
+      "changePercent": 0.03,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.743Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14995.748,
+      "change": 55.45,
+      "changePercent": 0.37,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.778Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25925.65,
+      "change": -52.42,
+      "changePercent": -0.2,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.821Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8756.32,
+      "change": -19.3,
+      "changePercent": -0.22,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.855Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.888Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 101.86,
+      "change": -3.47,
+      "changePercent": -3.29,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.926Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4694.1,
+      "change": -28.2,
+      "changePercent": -0.6,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.961Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8223,
+      "change": 0,
+      "changePercent": -0.05,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-27T21:03:03.996Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7126.06005859375,
+        7109.14013671875,
+        7064.009765625,
+        7137.89990234375,
+        7108.39990234375,
+        7165.080078125,
+        7173.91015625
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24468.48046875,
+        24404.390625,
+        24259.9609375,
+        24657.5703125,
+        24438.5,
+        24836.599609375,
+        24887.099609375
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        49447.4296875,
+        49442.55859375,
+        49149.37890625,
+        49490.03125,
+        49310.3203125,
+        49230.7109375,
+        49167.7890625
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10667.599609375,
+        10609.099609375,
+        10498.099609375,
+        10476.5,
+        10457,
+        10379.099609375,
+        10321.08984375
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24702.240234375,
+        24417.80078125,
+        24270.869140625,
+        24194.900390625,
+        24155.44921875,
+        24128.98046875,
+        24083.529296875
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        58824.890625,
+        59349.171875,
+        59585.859375,
+        59140.23046875,
+        59716.1796875
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4082.126953125,
+        4085.076904296875,
+        4106.2578125,
+        4093.25,
+        4079.89990234375
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4757.43994140625,
+        4768,
+        4799.6298828125,
+        4786.330078125,
+        4769.3701171875
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14966.75,
+        14982.1396484375,
+        15177.2900390625,
+        15043.4501953125,
+        14940.2998046875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        26361.0703125,
+        26487.48046875,
+        26163.240234375,
+        25915.19921875,
+        25978.0703125
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8899.0595703125,
+        8943.5400390625,
+        8801.7802734375,
+        8732.6298828125,
+        8775.6201171875
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        90.37999725341797,
+        95.4800033569336,
+        98.4800033569336,
+        101.91000366210938,
+        105.06999969482422,
+        105.33000183105469,
+        101.86000061035156
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4857.60009765625,
+        4806.60009765625,
+        4698.39990234375,
+        4732.5,
+        4705.10009765625,
+        4722.2998046875,
+        4694.10009765625
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.816999912261963,
+        6.817399978637695,
+        6.820799827575684,
+        6.82420015335083,
+        6.826000213623047,
+        6.835899829864502,
+        6.822299957275391
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-27T21:03:03.335Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-27T21:03:03.499Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-27T21:03:03.563Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Trump discussed Iran&apos;s Hormuz Strait proposal with top aides, White House says",
+      "description": "The Trump administration has repeatedly insisted that the central goal of the conflict is keeping Iran from ever obtaining a nuclear weapon.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/trump-iran-war-strait-of-hormuz-rubio.html",
+      "publishedAt": "2026-04-27T18:10:42.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Ray Dalio says Kevin Warsh shouldn&apos;t cut interest rates in a ‘stagflation’ era",
+      "description": "Dalio said that if Kevin Warsh were to cut rates, it would risk damaging confidence in the central bank at a critical moment.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/ray-dalio-says-kevin-warsh-shouldnt-cut-interest-rates-in-a-stagflation-era.html",
+      "publishedAt": "2026-04-27T18:36:16.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Micron and Sandisk continue rally as demand for memory expected to persist ",
+      "description": "Shares of Micron and Sandisk jumped after Melius Research said in a report that demand for memory will remain strong through the end of the decade.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/micron-and-sandisk-pop-as-memory-demand-to-remain-high-through-2030.html",
+      "publishedAt": "2026-04-27T20:26:31.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Prediction markets prepare to invade one of crypto’s biggest and riskiest trades",
+      "description": "There’s a land grab underway in the U.S. for perpetual futures, one of the biggest and riskiest parts of crypto — and prediction markets want a piece of it.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/prediction-markets-prepare-to-invade-one-of-cryptos-biggest-and-riskiest-trades.html",
+      "publishedAt": "2026-04-27T16:59:36.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Tom Lee says it&apos;s &apos;very probable&apos; stocks will sail past 7,700 this year",
+      "description": "The S&P 500 closed at another record high on Monday as investors look past several headwinds, including the Iran war, according to Tom Lee. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/tom-lee-says-its-very-probable-stocks-will-sail-past-7700-this-year.html",
+      "publishedAt": "2026-04-27T20:48:09.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump ballroom lawsuit plaintiff rejects DOJ demand to drop case after &apos;assassination attempt&apos;",
+      "description": "Trump and others say the proposed White House ballroom would be much more secure than the Washington Hilton Hotel, where Saturday's shooting occurred.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/trump-ballroom-whcd-doj-lawsuit.html",
+      "publishedAt": "2026-04-27T17:12:07.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Stocks making the biggest moves midday: Sandisk, Micron, Verizon, AMD, GE Vernova and more",
+      "description": "These are the stocks posting the largest moves in midday trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/stocks-making-the-biggest-moves-midday-sndk-mu-vz-amd-gev.html",
+      "publishedAt": "2026-04-27T18:57:32.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Jury selection kicks off in Musk v. Altman trial",
+      "description": "The Musk v. Altman trial kicked off at a federal courthouse in Oakland, California, with jury selection followed by opening arguments. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/musk-altman-trial-openai-jury-selection.html",
+      "publishedAt": "2026-04-27T19:28:06.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "European flight prices are falling in short term, Wizz Air boss says",
+      "description": "While many airlines say they are raising prices due to high fuel costs, József Váradi says European airlines are trying to boost demand",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c3exel4p1yqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T18:44:10.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
+      "description": "All of the chain's standalone stores have stopped trading in the UK and Ireland.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cg4047qnpk2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T16:36:50.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Greggs removes cabinets in shoplifting hotspots",
+      "description": "Greggs is removing display cabinets in London stores that have been most severely hit by shoplifters.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c8dldv4lqygo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T16:48:46.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Superdry co-founder accused of raping woman",
+      "description": "James Holder, 54, is accused of raping the woman after a night out in 2022, but denies the charges.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cly7yevvl2wo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T16:25:51.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil prices rise as US-Iran peace talks stall",
+      "description": "President Trump said the US had cancelled plans to send a team to Pakistan for negotiations.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T20:30:52.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "How climate change threatens the economic backbone of the Pacific",
+      "description": "Tuna populations around the Pacific Islands could move away as ocean temperatures increase.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cq57vxjvdy4o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-26T23:16:41.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Less bread and WFH Fridays – what Pret boss knows about our habits",
+      "description": "Customers want great value but that doesn't necessarily mean the cheapest products, says Pano Christou.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c8dl3z9878no?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T06:44:54.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "'I don't want the children to see how worried we are': UK family finances hit by Iran war",
+      "description": "British families tell BBC Panorama how the Iran war is affecting their monthly budgets.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/ckg9q2g88nzo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T04:55:34.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Micron and Sandisk continue rally as demand for memory expected to persist ",
+      "description": "Shares of Micron and Sandisk jumped after Melius Research said in a report that demand for memory will remain strong through the end of the decade.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/micron-and-sandisk-pop-as-memory-demand-to-remain-high-through-2030.html",
+      "publishedAt": "2026-04-27T20:26:31.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "New Wall Street research touts our long-held view on AI and cybersecurity stocks",
+      "description": "CrowdStrike won fresh Wall Street support as analyst said rising AI-driven cyber threats increase demand for the company's security platform.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/street-research-adopts-our-long-held-view-on-ai-and-cybersecurity-stocks.html",
+      "publishedAt": "2026-04-27T18:11:10.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Jury selection kicks off in Musk v. Altman trial",
+      "description": "The Musk v. Altman trial kicked off at a federal courthouse in Oakland, California, with jury selection followed by opening arguments. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/musk-altman-trial-openai-jury-selection.html",
+      "publishedAt": "2026-04-27T19:28:06.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Former Google DeepMind researcher&apos;s AI startup raises record $1.1 billion seed funding to pursue superintelligence",
+      "description": "Ineffable Intelligence has emerged from stealth with a $5.1 billion valuation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
+      "publishedAt": "2026-04-27T17:33:24.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Prediction markets prepare to invade one of crypto’s biggest and riskiest trades",
+      "description": "There’s a land grab underway in the U.S. for perpetual futures, one of the biggest and riskiest parts of crypto — and prediction markets want a piece of it.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/prediction-markets-prepare-to-invade-one-of-cryptos-biggest-and-riskiest-trades.html",
+      "publishedAt": "2026-04-27T16:59:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon’s bet on satellites is expensive and faces fierce competition. It also just might work",
+      "description": "Leo has the potential to \"be a huge business out of nowhere,\" Jim Cramer said. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/amazon-spacex-satellites-jim-cramer-investing-club.html",
+      "publishedAt": "2026-04-27T14:51:32.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Spotify teams up with Peloton to launch global fitness content hub",
+      "description": "Spotify teams with Peloton to launch fitness content, potentially opening new revenue streams while expanding Peloton’s global reach.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/spotify-peloton-fitness-content-hub.html",
+      "publishedAt": "2026-04-27T13:04:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "OpenAI shakes up partnership with Microsoft, capping revenue share payments",
+      "description": "Things have changed since Microsoft and OpenAI announced a broad agreement following OpenAI's restructuring in October.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html",
+      "publishedAt": "2026-04-27T16:58:44.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "马斯克诉奥特曼案正式开启陪审团遴选",
+      "description": "这场昔日好友反目、如今利益对立的马斯克诉奥特曼重大诉讼，于加州奥克兰联邦法院正式启动陪审团遴选流程。 本案由法官伊冯・冈萨雷斯・罗杰斯全程审理...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvan8696997.shtml",
+      "publishedAt": "2026-04-27T21:00:29.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "桥水基金创始人达里欧：滞胀环境下，沃什不应降息",
+      "description": "桥水基金创始人表示，通胀压力持续叠加经济增长放缓，政策制定者必须保持谨慎。 达里欧周一称：“我们无疑正处于滞胀时期。” 达里欧警告，美国经济已陷入滞胀环境，并指出...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvar1928992.shtml",
+      "publishedAt": "2026-04-27T20:56:48.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "前谷歌DeepMind研究员创办AI初创公司，斩获11亿美元创纪录种子轮融资，全力研发超级智能",
+      "description": "近数月来，大批科技巨头顶尖科研人才离职创业，大卫·西尔弗正是其中一员，纷纷自立门户创办AI实验室。 谷歌人工智能部门DeepMind的前核心研究员于周一官宣...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvau7495063.shtml",
+      "publishedAt": "2026-04-27T20:51:24.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月28日美股成交额前20：OpenAI终止与微软的独家合作",
+      "description": "周一美股成交额第1名英伟达收高4%，创历史新高，成交392.31亿美元。一家与英伟达深度绑定的数据中心开发商周一计划发行45亿美元垃圾债，为其内华达州200兆瓦项目融资...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvar1927080.shtml",
+      "publishedAt": "2026-04-27T20:48:03.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美光与闪迪股价持续走高，存储芯片需求有望长期旺盛",
+      "description": " 受梅利厄斯研究机构研判——存储芯片高需求或将延续至本世纪20年代末，存储芯片巨头美光、闪迪本周一股价再度大涨，延续长期上涨行情。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvas8703868.shtml",
+      "publishedAt": "2026-04-27T20:45:52.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "马斯克诉奥特曼案正式开启陪审团遴选",
+      "description": "这场昔日好友反目、如今利益对立的马斯克诉奥特曼重大诉讼，于加州奥克兰联邦法院正式启动陪审团遴选流程。 本案由法官伊冯・冈萨雷斯・罗杰斯全程审理...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvan8696997.shtml",
+      "publishedAt": "2026-04-27T21:00:29.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "桥水基金创始人达里欧：滞胀环境下，沃什不应降息",
+      "description": "桥水基金创始人表示，通胀压力持续叠加经济增长放缓，政策制定者必须保持谨慎。 达里欧周一称：“我们无疑正处于滞胀时期。” 达里欧警告，美国经济已陷入滞胀环境，并指出...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvar1928992.shtml",
+      "publishedAt": "2026-04-27T20:56:48.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "前谷歌DeepMind研究员创办AI初创公司，斩获11亿美元创纪录种子轮融资，全力研发超级智能",
+      "description": "近数月来，大批科技巨头顶尖科研人才离职创业，大卫·西尔弗正是其中一员，纷纷自立门户创办AI实验室。 谷歌人工智能部门DeepMind的前核心研究员于周一官宣...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvau7495063.shtml",
+      "publishedAt": "2026-04-27T20:51:24.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月28日美股成交额前20：OpenAI终止与微软的独家合作",
+      "description": "周一美股成交额第1名英伟达收高4%，创历史新高，成交392.31亿美元。一家与英伟达深度绑定的数据中心开发商周一计划发行45亿美元垃圾债，为其内华达州200兆瓦项目融资...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvar1927080.shtml",
+      "publishedAt": "2026-04-27T20:48:03.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美光与闪迪股价持续走高，存储芯片需求有望长期旺盛",
+      "description": " 受梅利厄斯研究机构研判——存储芯片高需求或将延续至本世纪20年代末，存储芯片巨头美光、闪迪本周一股价再度大涨，延续长期上涨行情。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-28/doc-inhvyvas8703868.shtml",
+      "publishedAt": "2026-04-27T20:45:52.000Z"
+    }
+  ]
+}
