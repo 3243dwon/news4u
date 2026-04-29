@@ -1,0 +1,647 @@
+{
+  "date": "2026-04-30",
+  "fetchedAt": "2026-04-29T21:06:21.055Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7135.95,
+      "change": -29.13,
+      "changePercent": -0.41,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.626Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24673.24,
+      "change": -163.36,
+      "changePercent": -0.66,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.666Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 48861.81,
+      "change": -368.9,
+      "changePercent": -0.75,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.708Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10213.11,
+      "change": -165.99,
+      "changePercent": -1.6,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.747Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 23954.56,
+      "change": -174.42,
+      "changePercent": -0.72,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.851Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59917.46,
+      "change": 201.28,
+      "changePercent": 0.34,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.894Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4107.514,
+      "change": 27.61,
+      "changePercent": 0.68,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:19.986Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4810.3467,
+      "change": 40.98,
+      "changePercent": 0.86,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.025Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 15120.923,
+      "change": 180.62,
+      "changePercent": 1.21,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.067Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26111.84,
+      "change": 133.77,
+      "changePercent": 0.51,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.162Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8805.6,
+      "change": 29.98,
+      "changePercent": 0.34,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.199Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.238Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 111.81,
+      "change": 3.58,
+      "changePercent": 3.31,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.281Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4556.5,
+      "change": -118.9,
+      "changePercent": -2.54,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.319Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.837,
+      "change": 0.01,
+      "changePercent": 0.16,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-29T21:06:20.409Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7064.009765625,
+        7137.89990234375,
+        7108.39990234375,
+        7165.080078125,
+        7173.91015625,
+        7138.7998046875,
+        7135.9501953125
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24259.9609375,
+        24657.5703125,
+        24438.5,
+        24836.599609375,
+        24887.099609375,
+        24663.80078125,
+        24673.240234375
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        49149.37890625,
+        49490.03125,
+        49310.3203125,
+        49230.7109375,
+        49167.7890625,
+        49141.9296875,
+        48861.80859375
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10498.099609375,
+        10476.5,
+        10457,
+        10379.099609375,
+        10321.099609375,
+        10332.7998046875,
+        10213.1103515625
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24270.869140625,
+        24194.900390625,
+        24155.44921875,
+        24128.98046875,
+        24083.529296875,
+        24018.259765625,
+        23954.560546875
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        58824.890625,
+        59349.171875,
+        59585.859375,
+        59140.23046875,
+        59716.1796875,
+        60537.359375,
+        59917.4609375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4082.126953125,
+        4085.076904296875,
+        4106.2578125,
+        4093.25,
+        4079.89990234375,
+        4086.343994140625,
+        4078.636962890625
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4757.43994140625,
+        4768,
+        4799.6298828125,
+        4786.330078125,
+        4769.3701171875,
+        4770.9501953125,
+        4758.2099609375
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14966.75,
+        14982.1396484375,
+        15177.2900390625,
+        15043.4501953125,
+        14940.2998046875,
+        14995.75,
+        14830.4599609375
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        26361.0703125,
+        26487.48046875,
+        26163.240234375,
+        25915.19921875,
+        25978.0703125,
+        25925.650390625,
+        25679.779296875
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8899.0595703125,
+        8943.5400390625,
+        8801.7802734375,
+        8732.6298828125,
+        8775.6201171875,
+        8756.3203125,
+        8644.8095703125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        98.4800033569336,
+        101.91000366210938,
+        105.06999969482422,
+        105.33000183105469,
+        108.2300033569336,
+        111.26000213623047,
+        111.80999755859375
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4698.39990234375,
+        4732.5,
+        4705.10009765625,
+        4722.2998046875,
+        4675.39990234375,
+        4591.5,
+        4556.5
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.820799827575684,
+        6.82420015335083,
+        6.826000213623047,
+        6.835899829864502,
+        6.822800159454346,
+        6.837399959564209,
+        6.836999893188477
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-29T21:06:19.668Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-29T21:06:19.840Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-29T21:06:20.085Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
+      "description": "Meta beat on revenue, but showed disappointing user numbers and its capital expenditures were below estimates. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+      "publishedAt": "2026-04-29T20:57:02.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Microsoft beats on top and bottom lines with 40% Azure growth",
+      "description": "Microsoft's Azure growth beat consensus, and corporate adoption of the Copilot artificial intelligence assistant is growing. Capital expenditures fell short.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "publishedAt": "2026-04-29T21:01:25.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Alphabet beats on revenue, with cloud booming 63% and topping $20 billion",
+      "description": "Alphabet reported first-quarter earnings after the bell Wednesday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+      "publishedAt": "2026-04-29T20:48:37.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Amazon stock dips even as earnings beat expectations with strong cloud growth",
+      "description": "Amazon reported its first-quarter results after the market close on Wednesday. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html",
+      "publishedAt": "2026-04-29T21:02:27.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Chipotle posts surprise same-store sales growth in early sign chain could be breaking its slump",
+      "description": "Chipotle shares have plummeted 35% over the last year.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/chipotle-mexican-grill-cmg-q1-2026-earnings.html",
+      "publishedAt": "2026-04-29T20:49:41.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Savings rates drop even without Fed cuts. Here’s where you can still earn 4% on your cash",
+      "description": "While the Federal Reserve's hold on rate cuts is generally good news for savers, there have already been some banks that have lowered their payouts anyway. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/savings-rates-drop-even-without-fed-cuts-heres-where-you-can-still-earn-4percent-on-your-cash.html",
+      "publishedAt": "2026-04-29T18:35:03.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Ford raises 2026 guidance as $1.3 billion tariff refund assists in offsetting higher costs",
+      "description": "Aside from earnings and any changes to the automaker's 2026 guidance, investors will be monitoring effects from the Iran war, tariffs and the pullback in EVs.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/ford-motor-f-earnings-q1-2026.html",
+      "publishedAt": "2026-04-29T20:16:57.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Amazon&apos;s cloud unit reports 28% sales growth, topping estimates",
+      "description": "Amazon Web Services now accounts for over 20% of its parent company's total revenue.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
+      "publishedAt": "2026-04-29T20:51:20.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Four key takeaways from Jerome Powell's last rate decision as Fed chair",
+      "description": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T20:01:26.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil price briefly hits $120 after reports of 'extended' Iran blockade",
+      "description": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T20:24:29.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "'Numbskull, moron and too stupid': Trump and Powell's biggest clashes",
+      "description": "How the US President Donald Trump and Federal Reserve chair Jerome Powell came to blows.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T16:12:08.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "In five charts - How UAE's exit could affect Opec's influence over the oil price",
+      "description": "The BBC takes a look in charts at what the UAE's departure could mean for the oil cartel and more widely.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c70vjpny0dno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T16:37:08.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Advert for £49 serum banned over 'five years younger' claim",
+      "description": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T07:48:16.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Why Spotify has no button to filter out AI music",
+      "description": "Music streamer Deezer allows users to filter out AI music, so why does Spotify not offer the same?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cd7jpg4w181o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-27T23:03:10.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "A fresh financial crisis may be coming - it won't play out like the last one",
+      "description": "Several warning lights are flashing that have some wondering whether we are in the foothills of another financial crisis.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cp3p5l0nyevo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-28T23:17:58.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Why has the UAE left Opec - and why does this matter?",
+      "description": "The United Arab Emirates (UAE) is quitting oil cartel Opec after nearly 60 years of membership.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/videos/cz92wdvwek8o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T10:24:54.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon&apos;s cloud unit reports 28% sales growth, topping estimates",
+      "description": "Amazon Web Services now accounts for over 20% of its parent company's total revenue.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
+      "publishedAt": "2026-04-29T20:51:20.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Meta’s Reality Labs lost over $4 billion in first quarter",
+      "description": "In Meta's first-quarter earnings report, the company said Reality Labs recorded an operating loss of over $4 billion while bringing in $402 million in sales. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/metas-reality-labs-lost-over-4-billion-in-first-quarter.html",
+      "publishedAt": "2026-04-29T20:19:52.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "PayPal&apos;s new CEO makes Venmo a standalone business unit as potential buyers circle",
+      "description": "PayPal is betting that a new corporate structure can reignite growth at a company that has lost ground to Apple, Google and Stripe in the e-commerce battle. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/paypal-restructures-venmo-standalone-unit.html",
+      "publishedAt": "2026-04-29T19:13:31.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Robinhood&apos;s revenue slump exposes crypto&apos;s core weakness",
+      "description": "Crypto still struggles to generate stable, nonspeculative revenue despite years of growth, innovation and institutional acceptance.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/robinhoods-revenue-slump-exposes-cryptos-core-weakness.html",
+      "publishedAt": "2026-04-29T18:26:31.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "We toured an AI data center to see how our stock names make these facilities work",
+      "description": "CoreSite CEO Juan Font thinks of his company's facilities like shopping malls.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/we-toured-an-ai-data-center-to-see-how-our-stocks-make-these-facilities-work.html",
+      "publishedAt": "2026-04-29T18:51:27.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "NXP Semiconductors soars 26%, best day ever after earnings beat",
+      "description": "Shares rose 26% Wednesday, the biggest surge since the Dutch chipmaker went public in 2010.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/nxp-semiconductors-stock-earnings-beat.html",
+      "publishedAt": "2026-04-29T20:03:13.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Meta stock drops as capex, user growth numbers come in below Wall Street estimates",
+      "description": "Meta beat on revenue, but showed disappointing user numbers and its capital expenditures were below estimates. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+      "publishedAt": "2026-04-29T20:57:02.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Microsoft beats on top and bottom lines with 40% Azure growth",
+      "description": "Microsoft's Azure growth beat consensus, and corporate adoption of the Copilot artificial intelligence assistant is growing. Capital expenditures fell short.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "publishedAt": "2026-04-29T21:01:25.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "Alphabet营收同比增长22% 净利润同比增长81% 云业务加速增长",
+      "description": "Alphabet今日公布了截至2026年3月31日的第一季度财务业绩。合并营收为1099亿美元，同比增长22%（按固定汇率计算增长19%），为连续第11个季度实现双位数增长。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6417503.shtml",
+      "publishedAt": "2026-04-29T21:04:12.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "微软营收同比增18% 利润同比增20% 云计算与AI驱动业绩增长",
+      "description": "微软公司今日公布了截至2026年3月31日的第三季度业绩，与上一财年同期相比：营收为829亿美元，同比增长18%（按固定汇率计算增长15%）营业利润为384亿美元...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihp0551634.shtml",
+      "publishedAt": "2026-04-29T20:55:14.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月30日美股成交额前20：英特尔大涨逾12%创历史新高",
+      "description": " 周三美股成交额第1名英伟达收跌1.83%，成交251.59亿美元。该股周一创历史新高之后已连续两日走低，不过市值仍维持在5万亿美元之上。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6414501.shtml",
+      "publishedAt": "2026-04-29T20:52:47.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "韦德布什大幅上调闪迪目标价至1200美元",
+      "description": " 韦德布什证券公司周三发布研报，将闪迪目标价从740美元大幅上调至1200美元，上调幅度达62%，同时维持对该股的“跑赢大盘”评级。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6412942.shtml",
+      "publishedAt": "2026-04-29T20:43:44.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "AMD周三大涨4.3%，此前获萨斯奎哈纳唱好",
+      "description": "AMD周三大涨4.3%，此前萨斯奎哈纳国际集团周三发布研报，将AMD目标价从300美元上调至375美元，重申对该股的积极评级。 该机构分析师克里斯托弗·罗兰在报告中指出...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihk7613218.shtml",
+      "publishedAt": "2026-04-29T20:40:24.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "Alphabet营收同比增长22% 净利润同比增长81% 云业务加速增长",
+      "description": "Alphabet今日公布了截至2026年3月31日的第一季度财务业绩。合并营收为1099亿美元，同比增长22%（按固定汇率计算增长19%），为连续第11个季度实现双位数增长。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6417503.shtml",
+      "publishedAt": "2026-04-29T21:04:12.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "微软营收同比增18% 利润同比增20% 云计算与AI驱动业绩增长",
+      "description": "微软公司今日公布了截至2026年3月31日的第三季度业绩，与上一财年同期相比：营收为829亿美元，同比增长18%（按固定汇率计算增长15%）营业利润为384亿美元...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihp0551634.shtml",
+      "publishedAt": "2026-04-29T20:55:14.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月30日美股成交额前20：英特尔大涨逾12%创历史新高",
+      "description": " 周三美股成交额第1名英伟达收跌1.83%，成交251.59亿美元。该股周一创历史新高之后已连续两日走低，不过市值仍维持在5万亿美元之上。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6414501.shtml",
+      "publishedAt": "2026-04-29T20:52:47.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "韦德布什大幅上调闪迪目标价至1200美元",
+      "description": " 韦德布什证券公司周三发布研报，将闪迪目标价从740美元大幅上调至1200美元，上调幅度达62%，同时维持对该股的“跑赢大盘”评级。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihs6412942.shtml",
+      "publishedAt": "2026-04-29T20:43:44.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "AMD周三大涨4.3%，此前获萨斯奎哈纳唱好",
+      "description": "AMD周三大涨4.3%，此前萨斯奎哈纳国际集团周三发布研报，将AMD目标价从300美元上调至375美元，重申对该股的积极评级。 该机构分析师克里斯托弗·罗兰在报告中指出...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-30/doc-inhwfihk7613218.shtml",
+      "publishedAt": "2026-04-29T20:40:24.000Z"
+    }
+  ]
+}
